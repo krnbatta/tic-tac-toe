@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #cdcdcd;
+}
+#game{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  width: 500px;
+  height: 302px;
+  align-items: flex-start;
+  background: #fff;
+  margin: 100px auto;
+  padding: 100px;
+}
+#board{
+  flex-basis: 300px;
+  width: 350px;
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column wrap;
+  border: 1px solid #000;
+}
+#message{
+  flex-basis: 50px;
+  flex-grow: 1;
+}
+#moves-list{
+  flex-basis: 250px;
+}
+.square{
+  flex-basis: 100px;
+  flex-grow: 1;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  padding: 40px 50px;
+  font-size: 16px;
+}
